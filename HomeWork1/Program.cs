@@ -58,14 +58,12 @@ else
 
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
-/*
+
 
 Console.Write("Напишите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int cur = 1;
 
-if(num % 2 == 0)
-{
     if(cur < num)
     {    
         cur += 1;
@@ -84,28 +82,3 @@ if(num % 2 == 0)
             cur -= 2;
         }
     }
-
-}
-else
-{
-    if(cur > num)
-    {
-        cur -= 1;
-        while(cur >= num)
-        {
-            Console.Write(cur + ",");
-            cur -= 2;
-        }
-    }
-    else
-    {
-        cur += 1;
-        while(cur <= num)
-        {
-            Console.Write(cur + ",");
-            cur += 2;
-        }
-    }
-}
-
-*/
