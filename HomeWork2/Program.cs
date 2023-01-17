@@ -52,7 +52,7 @@ ThirdDigit(num);
 Console.Clear();
 void FindDate (int day) 
 {
-    if(day >= 6 && day <= 7) Console.WriteLine("Выходной день!");
+    if(day == 6 || day == 7)Console.WriteLine("Выходной день!");
     else if (day <= 0 || day > 7) Console.WriteLine("Нет такого дня, введите число от 1 до 7");
     else Console.WriteLine("Будний день");
     
