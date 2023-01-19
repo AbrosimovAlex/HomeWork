@@ -70,14 +70,14 @@ Console.WriteLine($"Сумма элементов, стоящих на нечё�
 */
 
 // Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-/*
+
 
 double[] CreateArray(int size, int min, int max)
 {
     double[] array = new double[size];
 
     for (int i = 0; i < size; i++)    
-        array[i] = new Random().Next(min, max) + Math.Round((new Random().NextDouble()), 2);
+        array[i] = new Random().Next(min, max) + new Random().NextDouble();
     
     return array;
     
@@ -121,4 +121,3 @@ PrintArray(arr);
 
 Console.WriteLine("Разница между максимальных и минимальным значением: " + MinMaxDifference(arr));
 
-*/
